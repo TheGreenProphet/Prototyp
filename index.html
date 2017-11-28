@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script language="javascript" type="text/javascript" src="CardGame.js"></script>
+</head>
+<body>
+<div id="meinSpielfeld">
+
+</div>
+
+<button type="button" name="startGameButton" onClick="startGame(this)" id="startGameButton">
+    Spiel starten
+</button>
+
+<button type="button" name="drawCard" onClick="drawCard(this)" id="drawCardButton">
+    Karte ziehen
+</button>
+
+<button type="button" name="newStart" onClick="location.reload()" id="newStartButton">
+    Seite neu laden
+</button>
+
+<p id="playerCardsDisplay" aria-readonly="true"></p>
+
+<p id="gameFinishedText" aria-readonly="true">Congrats, all Cards drawn! <br> Now get over it and start a new game!</p>
+
+
+</body>
+</html>
