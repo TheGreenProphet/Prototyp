@@ -9,8 +9,8 @@
 
 #startGameButton {
     position:fixed;
-    left:190px;
-    top:325px;
+    left:640px;
+    top:360px;
     width:120px;
     height:50px;
 }
@@ -19,7 +19,7 @@
     display:none;
     position:fixed;
     left:40px;
-    top:325px;
+    top:360px;
     width:120px;
     height:50px;
 }
